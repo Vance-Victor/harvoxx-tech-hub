@@ -1,12 +1,16 @@
-import Nav  from '../src/Components/Nav';
+import Nav  from './Components/Nav';
 import './App.css';
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
     <section>
-      <Nav/>
+      <div className='home'>
+         <Nav/>
+        <LandingPage/>
+      </div>
     </section>
   );
 }
 
-export default Nav;
+export default App;
