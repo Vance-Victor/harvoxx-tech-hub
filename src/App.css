@@ -4,7 +4,7 @@
 }
 body{
     width: 100%;
-    /* height: 100%; */
+    
 }
 body::-webkit-scrollbar {
     width: 5px;
@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
     background-color: #fdc134;
   }
 
-  /* Nav */
+  /* NAV & LANDING PAGE */
   .home{
     background-color: #213B52;
     width: 100%;
@@ -118,4 +118,82 @@ body::-webkit-scrollbar {
 }
 .rlp img{
     width: 100%;
+}
+
+/* ABOUT */
+
+.aboutSection {
+    width: 100%;
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-around;
+}
+
+.aboutSection .aboutHarvoxx i {
+    color: #fdc134;
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+.image {
+    width: 40%;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image img{
+    width: 100%;
+    height: 75vh;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.aboutHarvoxx {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutHarvoxx h3{
+    font-family: 'Poppins', sans-serif;
+    color: #213B52;
+    font: 20px;
+    margin-bottom: 5%;
+}
+.aboutHarvoxx p{
+    font-family: 'Open Sans', sans-serif;
+    color: #848484;
+    font: 15px;
+    margin-bottom: 8%;
+}
+.aboutHarvoxx p span{
+    color: #444444;
+    font-size: 16;
+}
+.about{
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+.about h1{
+    color: #213B52;
+    margin: 8px;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif; 
+    }
+.diversity{
+    width: 45%;
+    justify-content: space-around;
+}
+.impact{
+    width: 45%;
+    justify-content: space-around;
+}
+.commitment{
+    width: 45%;
+    justify-content: space-around;
+}
+.aboutSection .integrity {
+    width: 40%;
+    justify-content: space-around;
 }
