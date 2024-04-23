@@ -2,7 +2,7 @@ import React from "react";
 import Image from '../Images/about.jpg';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-const About = () => {
+export default function About() {
     return (
         <section className="aboutSection">
             <div className="image">
@@ -62,5 +62,3 @@ const About = () => {
         </section>
     )
 }
-
-export default About;
