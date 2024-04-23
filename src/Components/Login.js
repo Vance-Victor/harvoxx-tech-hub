@@ -12,7 +12,7 @@ export default function Login(){
           <img src={welcomeImage} alt="welcome" />
         </div>
         <div className="myForm">
-            <form id="form">
+            <form id="form" className="form">
                 <h2>Login</h2>
         
 

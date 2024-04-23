@@ -9,6 +9,7 @@ import Image3 from '../Images/service3.jpg';
 import Image4 from '../Images/service4.jpg';
 import Image5 from '../Images/service5.jpg';
 import Image6 from '../Images/service6.jpg';
+import { Link } from "react-router-dom";
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 export default function LandingPage(){
     useEffect(() => {
@@ -53,8 +54,8 @@ export default function LandingPage(){
             investors, VCs, NGOs and other tech communities.
           </p>
           <br />
-          <input type="button" value="Log In" />
-          <input type="button" value="Sign up" />
+          <Link to="/login"><input type="button" value="Log In"/></Link>
+          <Link to="/signup"><input type="button" value="Sign up" /></Link>
         </div>
         <div
           className="rlp"

@@ -12,7 +12,7 @@ export default function Signup(){
           <img src={welcomeImage} alt="welcome" />
         </div>
         <div className="myForm">
-            <form id="form">
+            <form id="form" className="form">
                 <h2>Create an Account</h2>
                 <p id="errorname" style={{ color: "red" }}></p>
                 <p>Full Name</p>
