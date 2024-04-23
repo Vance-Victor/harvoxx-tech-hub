@@ -1,13 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Nav from './Nav'
+import welcomeImage from '../Images/welcome.png'
 
 export default function Login(){
     return(
-        <section>
-        <div></div>
-        <div>
+        <section className="signup">
+        <div
+          className="image"
+        >
+          <img src={welcomeImage} alt="welcome" />
+        </div>
+        <div className="myForm">
             <form id="form">
-                <h3>Login</h3>
+                <h2>Login</h2>
         
 
                 <p id="erroremail" style={{ color: "red" }}></p>
@@ -28,8 +34,8 @@ export default function Login(){
                     placeholder="Password"
                     className="yourPassword"
                 />
-                <input type="button" value="Login" />
-                <p>Dont have an Account? Create an account</p>
+                <input className="button" type="button" value="Login" />
+                <p>Dont have an Account? <Link to="/signup">Create an Account</Link></p>
             </form>
         </div>
     </section>

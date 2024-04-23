@@ -516,7 +516,6 @@ form{
     border-style: outset;
     border-width: 4px;
     border-radius: 10px;
-    /* text-align: center; */
     width: 370px;
     height: 500px;
     margin-left: 20%;
@@ -544,16 +543,15 @@ form{
 }
 .myForm input{
     background-color: #ffffff;
-    /* text-align: left; */
-    padding-right: 100px;
     padding-left: 5%;
-    width: 50%;
+    width: 75%;
     height: 50px;
     margin: 0% 5% 0% 10%;
     border: 1px solid hsla(213, 16%, 49%, .3);
     outline: transparent;
     border-radius: 4px;
 }
+
 .myForm .button{
         color: #213B52;
         background-color: #fdc134;
