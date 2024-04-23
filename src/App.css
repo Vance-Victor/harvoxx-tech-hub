@@ -538,6 +538,10 @@ form{
     padding-left: 10%;
     padding-top: 3%;
 }
+.myForm a {
+    text-decoration: none;
+    color: #213B52;
+}
 .myForm input{
     background-color: #ffffff;
     /* text-align: left; */
@@ -568,8 +572,17 @@ form{
     text-align: center;
 }
 .image img{
-    width: 60%;
+    width: 90%;
     height: 40vh;
     margin-bottom: 10px;
     object-fit: fill;
+    animation-name: animation1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animation1{
+    to{
+        transform: translateY(-30px);
+    }
 }

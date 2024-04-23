@@ -8,9 +8,6 @@ export default function Signup(){
         <section className="signup">
         <div
           className="image"
-        //   data-aos="fade-in"
-        //   data-aos-easing="linear"
-        //   data-aos-duration="1500"
         >
           <img src={welcomeImage} alt="welcome" />
         </div>
