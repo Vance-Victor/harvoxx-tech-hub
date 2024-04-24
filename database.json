@@ -1,0 +1,93 @@
+{
+    "staff": [
+      {
+        "staff_id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "address": "123 Main St",
+        "department_id": 1
+      },
+      {
+        "staff_id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "address": "456 Oak St",
+        "department_id": 2
+      }
+    ],
+    "roles": [
+      {
+        "role_id": 1,
+        "name": "Manager",
+        "description": "Manages projects",
+        "responsibility": "Oversees staff",
+        "project_id": 1,
+        "staff_id": 1
+      },
+      {
+        "role_id": 2,
+        "name": "Developer",
+        "description": "Develops software",
+        "responsibility": "Writes code",
+        "project_id": 2,
+        "staff_id": 2
+      }
+    ],
+    "projects": [
+      {
+        "project_id": 1,
+        "deadline": "2024-12-31",
+        "description": "Build new website",
+        "duration": "6 months",
+        "department_id": 1
+      },
+      {
+        "project_id": 2,
+        "deadline": "2024-10-31",
+        "description": "Develop mobile app",
+        "duration": "4 months",
+        "department_id": 2
+      }
+    ],
+    "departments": [
+      {
+        "department_id": 1,
+        "name": "Engineering",
+        "email": "engineering@example.com",
+        "location": "Headquarters"
+      },
+      {
+        "department_id": 2,
+        "name": "Marketing",
+        "email": "marketing@example.com",
+        "location": "Branch office"
+      }
+    ],
+    "skills": [
+      {
+        "skill_id": 1,
+        "type": "Programming",
+        "level": "Intermediate",
+        "description": "JavaScript programming"
+      },
+      {
+        "skill_id": 2,
+        "type": "Design",
+        "level": "Advanced",
+        "description": "Graphic design"
+      }
+    ],
+    "staff_skills": [
+      {
+        "staff_skill_id": 1,
+        "staff_id": 1,
+        "skill_id": 1
+      },
+      {
+        "staff_skill_id": 2,
+        "staff_id": 2,
+        "skill_id": 2
+      }
+    ]
+  }
+  

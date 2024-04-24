@@ -11,6 +11,7 @@ import Image5 from '../Images/service5.jpg';
 import Image6 from '../Images/service6.jpg';
 import { Link } from "react-router-dom";
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import axios from 'axios';
 export default function LandingPage(){
     useEffect(() => {
       AOS.init({
