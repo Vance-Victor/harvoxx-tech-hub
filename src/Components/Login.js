@@ -9,7 +9,7 @@ export default function Login(){
         <div
           className="image"
         >
-          <img src={welcomeImage} alt="welcome" />
+          <img src={welcomeImage} alt="welcome" className="img"/>
         </div>
         <div className="myForm">
             <form id="form" className="form">
