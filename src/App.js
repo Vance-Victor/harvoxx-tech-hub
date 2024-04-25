@@ -1,29 +1,48 @@
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Nav  from './Components/Nav';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import LandingPage from './Components/LandingPage';
-import About from './Components/About';
-import Login from './Components/Login';
-import Signup from './Components/Signup';
-import Services from './Components/Services';
-import Contact from './Components/Contact';
+import Home from './Screens/Home';
+import Contact from './Screens/Contact';
+import DashboardHomepage from './Dashboard/Screen/DashboardHomepage';
+import Products from './Dashboard/Screen/Products';
+import Employees from './Dashboard/Screen/Employees';
+import Projects from './Dashboard/Screen/Projects';
+import Roles from './Dashboard/Screen/Roles';
+import Skills from './Dashboard/Screen/Skills';
+import Staffs from './Dashboard/Screen/Staffs';
+import Settings from './Dashboard/Screen/Settings';
+import Login from './Screens/Login';
+import Signup from './Screens/Signup';
+import Departments from './Dashboard/Screen/Departments';
 
-export default function App() {
+
+
+
+function App() {
   return (
-    <section>
-      <BrowserRouter>
-      <Nav/>
-        <Routes>
-          <Route index element={<LandingPage />} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/signup" element={<Signup/>} />
-          <Route path="/services" element={<Services/>} />
-          <Route path="/contact" element={<Contact/>} />
-        </Routes>
-      </BrowserRouter>
-    </section>
-    
+    <div className="App">
+      
+    <Routes>
+
+      <Route path="/" element={<Home/>} />
+      <Route path="/contact" element={<Contact/>} />
+      <Route path="/dashboard" element={<DashboardHomepage/>} />
+      <Route path="/products" element={<Products/>} />
+      <Route path="/employees" element={<Employees/>} />
+      <Route path="/departments" element={<Departments/>} />
+      <Route path="/projects" element={<Projects/>} />
+      {/* <Route path="/products" element={<Products/>} /> */}
+      <Route path="/Roles" element={<Roles/>} />
+      <Route path="/Skills" element={<Skills/>} />
+      <Route path="/Staffs" element={<Staffs/>} />
+      <Route path="/settings" element={<Settings/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/signup" element={<Signup/>} />
+
+    </Routes>
+      
+    </div>
   );
 }
 
+export default App;
