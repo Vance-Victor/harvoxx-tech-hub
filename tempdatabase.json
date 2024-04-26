@@ -103,6 +103,14 @@
       "phoneNumber": "07823931051",
       "password": "12345",
       "address": "Number 28"
+    },
+    {
+      "id": "6105",
+      "fullName": "VICTOR NYECHE",
+      "email": "viktohvance@gmail.com",
+      "phoneNumber": "07823931051",
+      "password": "12345",
+      "address": "11"
     }
   ],
   "employees": [
