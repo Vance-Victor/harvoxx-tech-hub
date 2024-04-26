@@ -113,10 +113,10 @@ const Sidebar = () => {
       </NavLink>
 
     
-      <NavLink to='/settings' className='link' activeclassName = 'active'>
+      <NavLink to='/' className='link' activeclassName = 'active'>
       
             <div>
-                <h4 style={{display:isOpen ? "none" : "block"}}>Settings</h4>
+                <h4 style={{display:isOpen ? "none" : "block"}}>Logout</h4>
 
             </div>
         

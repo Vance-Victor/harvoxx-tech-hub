@@ -68,7 +68,7 @@ const DashboardHomepage = () => {
     {
       text: 'Settings',
       icon: IoIosSettings,
-      link: '/settings'
+      link: '/'
       // background:'#f25961'
 
     }
