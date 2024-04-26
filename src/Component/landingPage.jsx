@@ -2,6 +2,7 @@ import React from "react";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 import LandingPageImage from "../Images/harvoxxlogo.png";
+import { LoadScript, GoogleMap } from '@react-google-maps/api';
 import AboutImage from '../Images/about.jpg';
 import Image1 from '../Images/service1.jpg';
 import Image2 from '../Images/service2.jpg';
@@ -10,6 +11,16 @@ import Image4 from '../Images/service4.jpg';
 import Image5 from '../Images/service5.jpg';
 import Image6 from '../Images/service6.jpg';
 // import { Link } from "react-router-dom";
+
+const mapStyles = {
+  width: '100%',
+  height: '600px',
+};
+
+const defaultCenter = {
+  lat: 51.5074, // Latitude for London
+  lng: -0.1278, // Longitude for London
+};
 const landingPage = () => {
   return (
     <section>
@@ -275,7 +286,7 @@ const landingPage = () => {
 
               </form>
           </div>
-          {/* <LoadScript
+          <LoadScript
               googleMapsApiKey="AIzaSyCBX-umRRP_GKQgz2x_2TlbQ4pvXLnpbyE"
           >
               <GoogleMap
@@ -284,7 +295,7 @@ const landingPage = () => {
                   center={defaultCenter}
               >
               </GoogleMap>
-          </LoadScript> */}
+          </LoadScript>
       </section>
 
     {/* FOOTER */}

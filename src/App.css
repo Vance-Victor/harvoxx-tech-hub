@@ -25,12 +25,6 @@ body::-webkit-scrollbar {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  
-  /* @tailwind base;
-  @tailwind components;
-  @tailwind utilities; */
-  
-
 
   /* NAV */
 
@@ -986,6 +980,10 @@ justify-content: space-between;
     width: 30%;
     background-color: #fdc134;
     margin-top: 30px;
+    margin-bottom: 30%;
+}
+.map{
+  margin-top: 20px;
 }
 
 /* FOOTER */
