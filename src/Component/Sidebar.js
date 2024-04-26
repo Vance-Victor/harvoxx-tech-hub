@@ -62,57 +62,22 @@ const Sidebar = () => {
      
         
 
-      <NavLink to='/' className='link' activeclassName = 'active'>
-      
-      {/* <div >
-      
-        <FaBars className='icon'/>
-        <h4 style={{display:isOpen ? "none" : "block"}}>Dashboard</h4>
-
-      </div> */}
-    
-    </NavLink>
-
       <NavLink to='/dashboard' className='link' activeclassName = 'active'>
       
         <div >
-        
-          <AiFillHome className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Home</h4>
-
         </div>
       
       </NavLink>
-
-      {/* <NavLink to='/products' className='link' activeclassName = 'active'>
-      
-        <div>
-        
-          <TbBooks  className='icon'/>
-          <h4 style={{display:isOpen ? "none" : "block"}}>Books</h4>
-
-        </div>
-      
-      </NavLink> */}
 
       <NavLink to='/projects' className='link' activeclassName = 'active'>
-      
         <div>
-        
-          <TbBooks  className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Projects</h4>
-
         </div>
-      
-      </NavLink>
-
-      <NavLink to='/employees' className='link' activeclassName = 'active'>
-      
       </NavLink>
 
       <NavLink to='/departments' className='link' activeclassName = 'active'>
         <div>
-          <TbBooks  className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Departments</h4>
         </div>
       </NavLink>
@@ -121,7 +86,6 @@ const Sidebar = () => {
       
         <div>
         
-          <TbBooks  className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Roles</h4>
 
         </div>
@@ -132,7 +96,6 @@ const Sidebar = () => {
       
         <div>
         
-          <TbBooks  className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Staffs</h4>
 
         </div>
@@ -143,7 +106,6 @@ const Sidebar = () => {
       
         <div>
         
-          <TbBooks  className='icon'/>
           <h4 style={{display:isOpen ? "none" : "block"}}>Skills</h4>
 
         </div>
@@ -154,8 +116,6 @@ const Sidebar = () => {
       <NavLink to='/settings' className='link' activeclassName = 'active'>
       
             <div>
-            
-                <IoIosSettings className='icon'/>
                 <h4 style={{display:isOpen ? "none" : "block"}}>Settings</h4>
 
             </div>

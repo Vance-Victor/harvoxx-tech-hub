@@ -34,11 +34,11 @@
     },
     {
       "id": "db3f",
-      "fullName": "Vincent Ekene Nwafor",
-      "email": "vincentwilliamsjohn9626@gmail.com",
-      "phoneNumber": "08137962688",
-      "password": "12345",
-      "address": "840 nasiru el rufia crescent,guzape"
+      "fullName": "",
+      "email": "",
+      "phoneNumber": "",
+      "password": "",
+      "address": ""
     },
     {
       "id": "cbfb",
@@ -79,6 +79,30 @@
       "phoneNumber": "07823931051",
       "password": "mmmmmmmm",
       "address": "Alcon Rd, Trans Amadi 500102, Port Harcourt, Nigeria"
+    },
+    {
+      "id": "9157",
+      "fullName": "Victor Chigozirim Nyeche",
+      "email": "nyechevictorchigozirim@gmail.com",
+      "phoneNumber": "07823931051",
+      "password": "qqqqqqqq",
+      "address": "Alcon Rd, Trans Amadi 500102, Port Harcourt, Nigeria"
+    },
+    {
+      "id": "6e3c",
+      "fullName": "Victor Chigozirim Nyeche",
+      "email": "nyechevictorchigozirim@gmail.com",
+      "phoneNumber": "07823931051",
+      "password": "zzzzzzzz",
+      "address": "Alcon Rd, Trans Amadi 500102, Port Harcourt, Nigeria"
+    },
+    {
+      "id": "f760",
+      "fullName": "Victor Chigozirim Nyeche",
+      "email": "w1949506@westminster.ac.uk",
+      "phoneNumber": "07823931051",
+      "password": "12345",
+      "address": "Number 28"
     }
   ],
   "employees": [
