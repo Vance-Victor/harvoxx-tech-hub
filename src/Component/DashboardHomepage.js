@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../App.css';
 import Sidebar from './Sidebar';
 import { TbBooks, TbBriefcase, TbUser, TbCode} from "react-icons/tb";
 import { FaLayerGroup } from 'react-icons/fa';
@@ -14,31 +13,26 @@ const DashboardHomepage = () => {
       text: 'Departments',
       icon: TbBooks,
       link: '/departments'
-      // background:'#6861ce'
     },
     {
       text: 'Projects',
       icon: TbBriefcase,
       link: '/projects'
-      // background:'#6861ce'
     },
     {
       text: 'Roles',
       icon: FaLayerGroup,
       link: '/roles'
-      // background:'#6861ce'
     },
     {
       text: 'Staffs',
       icon: TbUser,
       link: '/staffs'
-      // background:'#6861ce'
     },
     {
       text: 'Skills',
       icon: TbCode,
       link: '/skills'
-      // background:'#6861ce'
     },
 
 
@@ -57,11 +51,6 @@ const DashboardHomepage = () => {
           <Header2 />
 
           <section className='left'>
-
-            {/* <div className='search'>
-                <img src={s} alt="" />
-                <input type="search" placeholder='Search' />
-              </div> */}
 
             <div className='cards-container'>
 
@@ -83,12 +72,8 @@ const DashboardHomepage = () => {
 
                   </Link>
 
-
                 )
               })}
-
-
-
             </div>
           </section>
 

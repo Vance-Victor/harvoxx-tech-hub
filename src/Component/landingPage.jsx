@@ -10,7 +10,6 @@ import Image3 from '../Images/service3.jpg';
 import Image4 from '../Images/service4.jpg';
 import Image5 from '../Images/service5.jpg';
 import Image6 from '../Images/service6.jpg';
-// import { Link } from "react-router-dom";
 
 const mapStyles = {
   width: '100%',

@@ -1264,7 +1264,7 @@ justify-content: space-between;
     
     .llp input:hover {
         /* Keep input hover styles the same */
-    } */
+  
     
     .llp p {
         color: #FFFFFF;
@@ -2830,13 +2830,5 @@ code {
   font-size: 18px;
   font-weight: 400;
 }
-
-
-
-
-
-           
-    
     }
-       
-
+  }

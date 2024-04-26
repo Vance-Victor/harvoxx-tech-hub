@@ -63,14 +63,11 @@ const Departments = () => {
                     </div>
 
                     <table>
-                        {/* <thead className='heading'> */}
                             <tr className='heading'>
                                 <th>DepartmentId</th>
                                 <th>DepartmentName</th>
                                 <th className='dt'></th>
                             </tr>
-                        {/* </thead> */}
-                        {/* <tbody> */}
                             {departments.map((item, index) => (
                                 <tr key={index}>
                                     <td>{item.departmentId}</td>
@@ -78,7 +75,6 @@ const Departments = () => {
                                     <td className='dt'><button onClick={() => toggleModal1(item)}>See Details</button></td>
                                 </tr>
                             ))}
-                        {/* </tbody> */}
                     </table>
                 </main>
             </section>
@@ -163,7 +159,7 @@ const Departments = () => {
                                 <div className='others'>
                                     <p>Department ID: <span>{selectedDepartment.departmentId}</span></p>
                                     <p>Department Name: <span>{selectedDepartment.departmentName}</span></p>
-                                    {/* Render other product details here */}
+                                    
                                 </div>
                             </section>
                         )}

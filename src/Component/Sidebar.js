@@ -154,16 +154,7 @@ const Sidebar = () => {
         
 
         
-      {/* <NavLink to='/' lassName='link' activeclassName = 'active'>
-      
-        <div >
-        
-        <FaBars className='icon'/>
-        <h4 style={{display:isOpen ? "none" : "block"}}>Dashboard</h4>
-
-      </div>
-      
-      </NavLink> */}
+  
 
 
       <NavLink to='/dashboard' className='link' activeclassName = 'active'>
