@@ -9,13 +9,6 @@ import Header2 from './Header2';
 const DashboardHomepage = () => {
 
   const Cards = [
-
-    {
-      text: 'Employees',
-      icon: TbBooks,
-      link: '/employees'
-      // background:'#6861ce'
-    },
     {
       text: 'Departments',
       icon: TbBooks,

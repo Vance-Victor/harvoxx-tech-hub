@@ -108,11 +108,6 @@ const Sidebar = () => {
 
       <NavLink to='/employees' className='link' activeclassName = 'active'>
       
-        <div>
-          <TbBooks  className='icon'/>
-          <h4 style={{display:isOpen ? "none" : "block"}}>Employees</h4>
-        </div>
-      
       </NavLink>
 
       <NavLink to='/departments' className='link' activeclassName = 'active'>
