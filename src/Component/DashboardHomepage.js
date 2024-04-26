@@ -1,7 +1,8 @@
 import React from 'react';
 // import '../App.css';
 import Sidebar from './Sidebar';
-import { TbBooks } from "react-icons/tb";
+import { TbBooks, TbBriefcase, TbUser, TbCode} from "react-icons/tb";
+import { FaLayerGroup } from 'react-icons/fa';
 import { IoIosSettings } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import Header2 from './Header2';
@@ -17,61 +18,29 @@ const DashboardHomepage = () => {
     },
     {
       text: 'Projects',
-      icon: TbBooks,
+      icon: TbBriefcase,
       link: '/projects'
       // background:'#6861ce'
     },
     {
       text: 'Roles',
-      icon: TbBooks,
+      icon: FaLayerGroup,
       link: '/roles'
       // background:'#6861ce'
     },
     {
       text: 'Staffs',
-      icon: TbBooks,
+      icon: TbUser,
       link: '/staffs'
       // background:'#6861ce'
     },
     {
       text: 'Skills',
-      icon: TbBooks,
+      icon: TbCode,
       link: '/skills'
       // background:'#6861ce'
     },
 
-
-
-    // {
-    //   text:'Shops',
-    //   icon:GrShop,
-    //   link:'/shops'
-    //   // background:'#31ce36'
-    // },
-    // {
-    //   text:'Shop Manager',
-    //   icon:GrShop,
-    //   link:'/manager'
-    //   // background:'#31ce36'
-    // },
-
-    // {
-    //   text:'Bank',
-    //   icon:RiBankFill,
-    //   link:'/bank'
-    //   // background:'#6861ce'
-
-    // },
-
-
-
-    {
-      text: 'Settings',
-      icon: IoIosSettings,
-      link: '/'
-      // background:'#f25961'
-
-    }
 
   ];
 
