@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Component/Home';
-import Contact from './Screens/Contact';
+// import Contact from './Screens/Contact';
 import DashboardHomepage from './Component/DashboardHomepage';
 import Products from './Component/Products';
 import Employees from './Component/Employees';
@@ -25,7 +25,7 @@ function App() {
     <Routes>
 
       <Route path="/" element={<Home/>} />
-      <Route path="/contact" element={<Contact/>} />
+      {/* <Route path="/contact" element={<Contact/>} /> */}
       <Route path="/dashboard" element={<DashboardHomepage/>} />
       <Route path="/products" element={<Products/>} />
       <Route path="/employees" element={<Employees/>} />
