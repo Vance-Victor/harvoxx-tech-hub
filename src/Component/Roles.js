@@ -63,14 +63,11 @@ const Roles = () => {
                     </div>
 
                     <table>
-                        {/* <thead className='heading'> */}
                             <tr className='heading'>
                                 <th>Name</th>
                                 <th>Duration</th>
                                 <th className='dt'></th>
                             </tr>
-                        {/* </thead> */}
-                        {/* <tbody> */}
                             {roles.map((item, index) => (
                                 <tr key={index}>
                                     <td>{item.name}</td>
@@ -79,7 +76,6 @@ const Roles = () => {
                                     <td className='dt'><button onClick={() => toggleModal1(item)}>See Details</button></td>
                                 </tr>
                             ))}
-                        {/* </tbody> */}
                     </table>
                 </main>
             </section>
