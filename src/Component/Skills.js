@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import Modal from "react-modal";
-import Header2 from '../Components/Header2';
+import Header2 from './Header2';
 import axios from 'axios';
 
 

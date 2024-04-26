@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 import { TbBooks } from "react-icons/tb";
 import { IoIosSettings } from "react-icons/io";
 import { Link } from 'react-router-dom';
-import Header2 from '../Components/Header2';
+import Header2 from './Header2';
 
 const DashboardHomepage = () => {
 

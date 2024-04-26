@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import Modal from "react-modal";
-import Header2 from '../Components/Header2';
+import Header2 from './Header2';
 
 const Products = ({ category }) => {
     const data = JSON.parse(localStorage.getItem('formData')) || [];
