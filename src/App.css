@@ -131,7 +131,7 @@ body::-webkit-scrollbar {
   
   .side{
     /* background-color: #FFFACE; */
-    background-color: #000;
+    background-color: #213B52;
     /* width: 15%; */
     height: 100vh;
     padding:0 0 20px 0;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
   }
   .logo-div h1{
     font-size: 32px;
-    color: #c50404;
+    color: #fdc134;
   }
   
   
@@ -204,10 +204,10 @@ body::-webkit-scrollbar {
   .side a div:hover{
     
     border-radius: 10px;
-    background-color: #c50404;
+    background-color: #fdc134;
   }
   .side div .active{
-   background-color: #c50404;
+   background-color: #fdc134;
   }
   .side section{
     padding: 0;
@@ -226,7 +226,7 @@ body::-webkit-scrollbar {
     color: #fff;
   }
   .side .active{
-   background-color: #c50404;
+   background-color: #fdc134;
   }
   
   .side .bar{
@@ -354,7 +354,7 @@ body::-webkit-scrollbar {
   }
   
   .dashb .dashboard main .cards-container .card1 .icon-card .icons{
-    color: #c50404;
+    color: #213B52;
     font-size: 20px;
   }
   
@@ -368,7 +368,7 @@ body::-webkit-scrollbar {
   .dashb .dashboard main .cards-container .card1 .card-text p{
     font-size: 16px;
     font-weight: 500;
-    color: #000;
+    color: #213B52;
    }
   
   
@@ -389,7 +389,7 @@ body::-webkit-scrollbar {
   
    .dashb .dashboard .add button{
     padding: 10px;
-    background-color: #c50404;
+    background-color: #fdc134;
     color: #fff;
     border-radius: 10px;
     font-size: 16px;
@@ -399,7 +399,7 @@ body::-webkit-scrollbar {
     width: 100%;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+    box-shadow: #284864;
     padding: 20px 0;
    }
   
@@ -418,7 +418,7 @@ body::-webkit-scrollbar {
    }
   
    .dashb .dashboard table .heading{
-    background-color: #000;
+    background-color: #213B52;
     font-size: 19px;
     text-align: left;
     color: #fff;
@@ -436,7 +436,7 @@ body::-webkit-scrollbar {
    }
   
    .dashb .dashboard table tr .dt button{
-    background-color: #c50404;
+    background-color: #fdc134;
     color: #fff;
     font-size: 14px;
     padding: 7px 12px;
@@ -496,7 +496,7 @@ body::-webkit-scrollbar {
   .modal1 .modal1-content .product-form div input{
     width: 95%;
     background-color: transparent;
-    border: 2px solid #c50404;
+    border: 2px solid #fdc134;
     height: 45px;
     border-radius: 10px;
     padding-left: 10px;
@@ -505,7 +505,7 @@ body::-webkit-scrollbar {
   .modal1 .modal1-content .product-form div select{
     width: 95%;
     background-color: transparent;
-    border: 2px solid #c50404;
+    border: 2px solid #fdc134;
     height: 45px;
     border-radius: 10px;
   }
@@ -514,7 +514,7 @@ body::-webkit-scrollbar {
     width: 95%;
     height: 45px;
     border: none;
-    background-color: #c50404;
+    background-color: #fdc134;
     color: #fff;
     border-radius: 10px;
     margin-top: 48px;
