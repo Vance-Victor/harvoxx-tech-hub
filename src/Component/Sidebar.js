@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import '../App.css';
 import {AiFillHome } from "react-icons/ai";
-import img from "../../Images/harvoxxlogo.png"
+import img from "../Images/harvoxxlogo.png"
 import { FaCubes } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";

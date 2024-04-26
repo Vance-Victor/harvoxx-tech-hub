@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from '../Components/Sidebar';
+import Sidebar from './Sidebar';
 import Modal from "react-modal";
 import Header2 from '../Components/Header2';
 import axios from 'axios';
@@ -20,7 +20,7 @@ const Employees = () => {
     // const [departments, setDepartments] = useState([]); // State to hold departments
 
     useEffect(() => {
-        axios.get('http://localhost:3003/employees')
+        axios.get('http://localhost:3000/employees')
             .then(response => setEmployees(response.data))
             .catch(error => console.error('Error fetching employees:', error));
             // fetchDepartments();

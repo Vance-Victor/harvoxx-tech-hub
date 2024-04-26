@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import img from "../Images/harvoxxlogo.png"
-import Header from '../Components/Header';
+import Header from '../Component/Header';
 // import axios from 'axios';
 // import baseURL from '../baseUrl';
 // import usersData from '../tempdatabase.json'
@@ -22,7 +22,7 @@ const Login = () => {
         e.preventDefault();
         try {
             // Fetch user data from the JSON URL
-            const response = await fetch('http://localhost:3003/users');
+            const response = await fetch('http://localhost:3000/users');
             if (!response.ok) {
                 throw new Error('Failed to fetch user data');
             }

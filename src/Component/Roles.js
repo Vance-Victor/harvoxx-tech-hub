@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import Sidebar from '../Components/Sidebar';
+import Sidebar from './Sidebar';
 import Modal from "react-modal";
 import Header2 from '../Components/Header2';
 import axios from 'axios';
@@ -15,7 +15,7 @@ const Roles = () => {
     const [selectedRole, setSelectedROles] = useState(null);
 
     useEffect(() => {
-        axios.get('http://localhost:3003/roles')
+        axios.get('http://localhost:3000/roles')
             .then(response => setRoles(response.data))
             .catch(error => console.error('Error fetching roles:', error));
     }, []);

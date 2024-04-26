@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from '../Components/Sidebar';
+import Sidebar from './Sidebar';
 import Modal from "react-modal";
 import Header2 from '../Components/Header2';
 import axios from 'axios';
@@ -17,7 +17,7 @@ const Skills = () => {
  const [selectedSkill, setSelectedSkill] = useState(null);
 
  useEffect(() => {
-     axios.get('http://localhost:3003/skills')
+     axios.get('http://localhost:3000/skills')
          .then(response => setDepartments(response.data))
          .catch(error => console.error('Error fetching departments:', error));
  }, []);

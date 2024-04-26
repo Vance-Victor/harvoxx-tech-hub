@@ -71,6 +71,14 @@
       "phoneNumber": "",
       "password": "",
       "address": ""
+    },
+    {
+      "id": "e59d",
+      "fullName": "Victor Chigozirim Nyeche",
+      "email": "nyechevictorchigozirim@gmail.com",
+      "phoneNumber": "07823931051",
+      "password": "mmmmmmmm",
+      "address": "Alcon Rd, Trans Amadi 500102, Port Harcourt, Nigeria"
     }
   ],
   "employees": [

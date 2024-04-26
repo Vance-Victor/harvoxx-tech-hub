@@ -2,7 +2,7 @@ import React from 'react'
 import { IoCallSharp } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import Header from '../Components/Header';
+import Header from '../Component/Header';
 
 
 const Contact = () => {

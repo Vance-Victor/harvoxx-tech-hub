@@ -1,19 +1,19 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './Screens/Home';
+import Home from './Component/Home';
 import Contact from './Screens/Contact';
 import DashboardHomepage from './Dashboard/Screen/DashboardHomepage';
-import Products from './Dashboard/Screen/Products';
-import Employees from './Dashboard/Screen/Employees';
-import Projects from './Dashboard/Screen/Projects';
-import Roles from './Dashboard/Screen/Roles';
-import Skills from './Dashboard/Screen/Skills';
-import Staffs from './Dashboard/Screen/Staffs';
-import Settings from './Dashboard/Screen/Settings';
+import Products from './Component/Products';
+import Employees from './Component/Employees';
+import Projects from './Component/Projects';
+import Roles from './Component/Roles';
+import Skills from './Component/Skills';
+import Staffs from './Component/Staffs';
+import Settings from './Component/Settings';
 import Login from './Screens/Login';
 import Signup from './Screens/Signup';
-import Departments from './Dashboard/Screen/Departments';
+import Departments from './Component/Departments';
 
 
 

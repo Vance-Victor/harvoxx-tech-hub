@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import img from "../Images/harvoxxlogo.png"
 import { useNavigate, Link } from 'react-router-dom';
-import Header from '../Components/Header';
+import Header from '../Component/Header';
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
     try {
-      const response = await fetch('http://localhost:3003/users', {
+      const response = await fetch('http://localhost:3000/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
